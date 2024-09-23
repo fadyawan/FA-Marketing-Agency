@@ -1,0 +1,18 @@
+// app/(components)/Footer.js
+
+import Link from 'next/link';
+
+const Footer = () => {
+  return (
+    <footer className="bg-blue-300 text-white p-4 text-center">
+      <p>&copy; {new Date().getFullYear()} Free Future Marketing. All rights reserved.</p>
+      <div className="mt-2 space-x-4">
+        <Link href="/" className="">Home</Link>
+        <Link href="/products-and-services" className="">Products and Services</Link>
+        <Link href="/contact" className="">Contact Us</Link>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
