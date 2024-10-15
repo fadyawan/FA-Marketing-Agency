@@ -4,9 +4,9 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className="bg-blue-300 text-white p-4 flex justify-between items-center">
+    <nav className="bg-blue-600 text-white p-4 flex justify-between items-center">
       <Link href="/" className="text-xl font-bold">
-      Free Future Marketing
+      FA Marketing Agency
       </Link>
       <div className="space-x-4">
         <Link href="/about" className="">About</Link>
