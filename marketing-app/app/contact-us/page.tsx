@@ -39,7 +39,12 @@ export default function ContactUs() {
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-center mb-8">Contact Us</h1>
+      <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">Contact Us</h1>
+      <div className='font-bold text-center mb-2'>
+        <p className="text-gray-700 leading-relaxed">
+          Contact us through the form below, or leave a message on 07422 508 766.
+        </p>
+      </div>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">Name</label>

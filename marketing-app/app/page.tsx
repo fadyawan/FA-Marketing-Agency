@@ -9,8 +9,8 @@ export default function Home() {
         </div>
       </section>
       <section className="max-w-4xl mx-auto text-center px-4">
-        <h2 className="text-4xl font-semibold mb-4">Grow Your Brand With Us</h2>
-        <p className="text-lg text-gray-600">
+        <h2 className="text-4xl font-semibold text-gray-900 mb-4">Grow Your Brand With Us</h2>
+        <p className="text-lg text-gray-700">
           At Free Future Marketing, we specialize in helping your business thrive in the digital space. From content creation to website development and maintenance, we offer comprehensive services to boost your brand visibility.
         </p>
       </section>
