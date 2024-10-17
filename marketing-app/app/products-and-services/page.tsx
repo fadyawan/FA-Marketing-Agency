@@ -3,10 +3,10 @@ import Link from 'next/link';
 export default function ProductsAndServices() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">Products and Services</h1> {/* Updated text color */}
+      <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">Products and Services</h1>
       
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Content Creation</h2> {/* Updated text color */}
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Content Creation</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           At Free Future Marketing, we specialize in creating high-quality content that captivates and engages your audience. Our Content Creation services include:
         </p>
@@ -25,7 +25,7 @@ export default function ProductsAndServices() {
       </section>
       
       <section className="mb-12">
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Social Media Account Management</h2> {/* Updated text color */}
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Social Media Account Management</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           Our team manages your social media profiles to build your brand presence and engage with your audience. Our services include:
         </p>
@@ -41,7 +41,7 @@ export default function ProductsAndServices() {
       </section>
       
       <section>
-        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Custom Websites</h2> {/* Updated text color */}
+        <h2 className="text-2xl font-semibold text-gray-900 mb-4">Custom Websites</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
           We create and maintain custom websites tailored to your business needs. Our services include:
         </p>

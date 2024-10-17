@@ -1,15 +1,12 @@
 export default function VideoProduction() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
-      {/* Main Heading */}
-      <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">Video Production</h1>
       
-      {/* Introduction Text */}
+      <h1 className="text-3xl font-bold text-center text-gray-900 mb-8">Video Production</h1>
       <p className="text-gray-700 leading-relaxed mb-6">
         Our video production services are designed to create engaging and professional videos that resonate with your audience. From concept to final edit, we handle every aspect of video production.
       </p>
-      
-      {/* Concept Development Section */}
+
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">Concept Development</h2>
         <p className="text-gray-700 leading-relaxed">
@@ -17,7 +14,6 @@ export default function VideoProduction() {
         </p>
       </section>
       
-      {/* Production Section */}
       <section className="mb-6">
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">Production</h2>
         <p className="text-gray-700 leading-relaxed">
@@ -25,7 +21,6 @@ export default function VideoProduction() {
         </p>
       </section>
       
-      {/* Post-Production Section */}
       <section>
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">Post-Production</h2>
         <p className="text-gray-700 leading-relaxed">
