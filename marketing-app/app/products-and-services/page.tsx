@@ -8,7 +8,7 @@ export default function ProductsAndServices() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold text-gray-900 mb-4">Content Creation</h2>
         <p className="text-gray-700 leading-relaxed mb-4">
-          At Free Future Marketing, we specialize in creating high-quality content that captivates and engages your audience. Our Content Creation services include:
+          At FA Marketing, we specialize in creating high-quality content that captivates and engages your audience. Our Content Creation services include:
         </p>
         <ul className="list-disc list-inside pl-5 text-gray-700 mb-4">
           <li className="mb-2">Graphic Design: Custom visuals and designs to enhance your brand identity.</li>
@@ -47,7 +47,7 @@ export default function ProductsAndServices() {
         </p>
         <ul className="list-disc list-inside pl-5 text-gray-700 mb-4">
           <li className="mb-2">Website Design: Crafting visually appealing and user-friendly websites.</li>
-          <li>Website Development: Building responsive and functional websites that meet your business requirements.</li>
+          <li className="mb-2">Website Development: Building responsive and functional websites that meet your business requirements.</li>
           <li>Ongoing Maintenance: Regular updates and support to ensure your website runs smoothly.</li>
         </ul>
         <div className="flex justify-center">
